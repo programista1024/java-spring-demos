@@ -14,7 +14,7 @@
 	<name>todo-webapp</name>
 	<description>Aplikacja internetowa do zarządzania listą rzeczy do zrobienia</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
