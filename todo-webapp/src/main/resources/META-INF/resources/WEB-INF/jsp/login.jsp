@@ -7,10 +7,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menadżer Zadań</title>
+<title>Logowanie</title>
 </head>
-<h1>Witaj w Menadżerze Zadań!</h1>
-<p>To jest wersja JSP</p>
-<h2>Nagłówek 2</h2>
-<h3>Nagłówek 3</h3>
+<h3>Witaj, ${name}</h3>
+<h1>Logowanie</h1>
+<p>nazwa użytkownika:</p>
+<p>hasło:</p>
 </html>
