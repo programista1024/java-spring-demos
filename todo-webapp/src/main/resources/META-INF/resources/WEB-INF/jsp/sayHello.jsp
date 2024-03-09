@@ -10,4 +10,7 @@
 <title>Menadżer Zadań</title>
 </head>
 <h1>Witaj w Menadżerze Zadań!</h1>
+<p>To jest wersja JSP</p>
+<h2>Nagłówek 2</h2>
+<h3>Nagłówek 3</h3>
 </html>

@@ -27,6 +27,7 @@ public class SayHelloController {
 		sb.append("</head>																			");
 		sb.append("<body>																			");
 		sb.append("   <h1>Witaj w Menadżerze Zadań</h1>												");
+		sb.append("   <p>To jest wersja HTML</p>                                                    ");
 		sb.append("</body>																			");
 		sb.append("</html>																			");
 
