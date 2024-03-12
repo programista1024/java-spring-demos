@@ -12,6 +12,5 @@
 <body>
 	<div>Witaj w systemie!</div>
 	<div>Zalogowany użytkownik: ${name}</div>
-	<div>Hasło użytkownika: ${password}</div>
 </body>
 </html>

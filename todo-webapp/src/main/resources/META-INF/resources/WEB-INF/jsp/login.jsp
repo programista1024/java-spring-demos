@@ -12,6 +12,7 @@
 <body>
 	<h3>Witaj na stronie logowania!</h3>
 	<h1>Logowanie</h1>
+	<pre>${errorMessage}</pre>
 	<form method="post">
 		Nazwa użytkownika: <input type="text" name="name">
 		Hasło: <input type="password" name="password">
