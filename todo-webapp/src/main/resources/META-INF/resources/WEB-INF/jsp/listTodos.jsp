@@ -7,13 +7,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zalogowany użytkownik</title>
+<title>Twoja Lista Zadań</title>
 </head>
 <body>
 	<div>Witaj w systemie!</div>
-	<div>Zalogowany użytkownik: ${name}</div>
 	
-	<div><a href="list-todos">Zarządzaj</a> swoją listą zadań</div>
+	<div>Co chciałbyś dziś zaplanować, ${name}?</div>
 	
+	<div>Twoje zaplanowane zadania ${todos}</div>
 </body>
 </html>
