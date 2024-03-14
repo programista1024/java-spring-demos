@@ -10,7 +10,8 @@
 <title>Zalogowany użytkownik</title>
 </head>
 <body>
-	<div>Witaj w systemie!</div>
-	<div>Zalogowany użytkownik: ${name}</div>
+	<div>Witaj, ${name}. Jakie masz plany na dzisiaj?</div>
+	<hr>	
+	<div><a href="list-todos">Zarządzaj</a> swoją listą zadań</div>
 </body>
 </html>
