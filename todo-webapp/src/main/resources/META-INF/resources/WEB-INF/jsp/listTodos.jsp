@@ -13,12 +13,11 @@
 	<table class="table">
 		<thead>
 			<tr>
-				<th>Description</th>
-				<th>Target Date</th>
-				<th>Is Done?</th>
+				<th>Opis zadania</th>
+				<th>Data realizacji</th>
+				<th>Czy zakończone?</th>
 				<th></th>
 				<th></th>
-				<th>username</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -26,10 +25,12 @@
 				<tr>
 					<td>${todo.description}</td>
 					<td>${todo.targetDate}</td>
-					<td>${todo.done}</td>
+					<td>
+						<c:if test="${todo.done==true}">Tak</c:if>
+						<c:if test="${todo.done==false}">Nie</c:if>
+					</td>
 					<td><a href="delete-todo?id=${todo.id}" class="btn btn-warning">Usuń</a></td>
 					<td><a href="update-todo?id=${todo.id}" class="btn btn-success">Edytuj</a></td>
-					<td>${todo.username}</td>
 				</tr>
 			</c:forEach>
 		</tbody>

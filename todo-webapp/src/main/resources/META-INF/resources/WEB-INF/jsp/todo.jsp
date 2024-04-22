@@ -19,7 +19,7 @@
 		</fieldset>
 
 		<fieldset class="mb-3">
-			<form:label path="targetDate">Data zakończenia</form:label>
+			<form:label path="targetDate">Data realizacji</form:label>
 			<form:input type="text" path="targetDate" required="required" />
 			<form:errors path="targetDate" cssClass="text-warning" />
 		</fieldset>
